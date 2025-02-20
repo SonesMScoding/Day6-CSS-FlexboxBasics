@@ -1,0 +1,30 @@
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+ /* justify-content: space-around */
+ /* moves items in the middle of the page */
+
+ /* justify-content:center; */
+ /* opposite of space around */
+
+ justify-content: space-around;
+ align-items: center;
+ gap: 1rem;
+ min-height: 200px;
+ background-color: lightgray;
+}
+
+.flexItem{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.flexItem:nth-child(2){
+    background-color: lightcoral;
+}
+
+.flexItem:nth-child(3){
+    background-color: lightgreen;
+}
+
